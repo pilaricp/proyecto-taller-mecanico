@@ -1,0 +1,51 @@
+body{
+    background: #f2f2f2;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    margin-top: 30px;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* --- LOGO ---*/
+header .logo h2,
+header .logo span,
+header .logo p {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .logo h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header .logo .icono {color: #bfbfbf}
+
+header .logo p {color: #777777;}
+
+#nav_page:hover{
+    background-color: #82a1b1;
+    border-radius: 0.5rem;
+}
+
+.big_animate{
+    transition: 1s;
+}
+.big_animate:hover{
+    transform: scale(1.2);
+}
+
+.three-columns {
+    
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
