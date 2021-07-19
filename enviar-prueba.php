@@ -21,15 +21,15 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = ' ';                     //SMTP username
-    $mail->Password   = ' ';                               //SMTP password
+    $mail->Username   = '#';                     //SMTP username
+    $mail->Password   = '#';                               //SMTP password
     $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('programasemestrales@gmail.com', $nombre);     //de quien
-    $mail->addAddress('pilar.cortezp@utem.cl');     //Add a recipient   a quien
-    $mail->addAddress('programasemestrales@gmail.com');               //Name is optional
+    $mail->setFrom('#', $nombre);     //de quien
+    $mail->addAddress('#');     //Add a recipient   a quien
+    $mail->addAddress('#');               //Name is optional
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
